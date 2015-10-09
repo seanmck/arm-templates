@@ -219,7 +219,7 @@
             "typeHandlerVersion": "1.4",
             "settings": {
               "fileUris": [
-                "https://raw.githubusercontent.com/seanmck/arm-templates/onebox/master/SetupServiceFabricOneBox.ps1"
+                "https://raw.githubusercontent.com/seanmck/arm-templates/master/onebox/SetupServiceFabricOneBox.ps1"
               ],
               "commandToExecute": "[variables('cmdToExecute')]"
             }
