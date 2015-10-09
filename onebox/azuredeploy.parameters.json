@@ -1,0 +1,18 @@
+﻿{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "storageType": {
+      "value": "Premium_LRS"
+    },
+    "deployLocation": {
+      "value": "West Europe"
+    },
+    "vmSize": {
+      "value": "Standard_DS2"
+    },
+    "vmVisualStudioVersion": {
+      "value": "VS-2015-Enterprise-AzureSDK-2.7-WS2012R2"
+    }
+  }
+}
