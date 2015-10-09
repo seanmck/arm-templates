@@ -219,8 +219,7 @@
             "typeHandlerVersion": "1.4",
             "settings": {
               "fileUris": [
-                "https://raw.githubusercontent.com/mahthi/cloudguytemplates/master/service-fabric-template/SetupServiceFabricOneBox.ps1",
-                "https://raw.githubusercontent.com/mahthi/cloudguytemplates/master/service-fabric-template/test.vbs"
+                "https://raw.githubusercontent.com/seanmck/templates/onebox/master/SetupServiceFabricOneBox.ps1"
               ],
               "commandToExecute": "[variables('cmdToExecute')]"
             }
