@@ -91,7 +91,7 @@
     "vmStorageAccountContainerName": "vhds",
     "vmNicName": "[concat(parameters('VMName'), 'NetworkInterface')]",
     "vmIP01Name": "VMIP01",
-    "cmdToExecute" : "powershell.exe -ExecutionPolicy Unrestricted -Command .\\SetupServiceFabricOneBox.ps1 -Username ',parameters('vmAdminUserName'),' -Password ',parameters('vmAdminPassword')"
+    "cmdToExecute" : "powershell.exe -ExecutionPolicy Unrestricted -Command .\\SetupServiceFabricOneBox.ps1 -Username ',parameters('vmAdminUserName'),' -Password ',parameters('vmAdminPassword')'"
   },
   "resources": [
     {
