@@ -16,4 +16,4 @@ Start-Process 'C:\Program Files\Microsoft\Web Platform Installer\WebpiCmd-x64.ex
 
 # Set up local cluster
 
-& 'C:\Program Files\Microsoft SDKs\Service Fabric\ClusterSetup\DevClusterSetup.ps1'
+& 'C:\Program Files\Microsoft SDKs\Service Fabric\ClusterSetup\DevClusterSetup.ps1' | Out-File C:\setuplog.txt
