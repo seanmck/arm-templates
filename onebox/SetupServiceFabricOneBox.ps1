@@ -12,7 +12,7 @@ $Credential = New-Object â€“TypeName System.Management.Automation.PSCredential â
 
 # Intentionally not using the user, password passed in since it doesnt work
 
-Start-Process 'C:\Program Files\Microsoft\Web Platform Installer\WebpiCmd-x64.exe' -ArgumentList "/Install /XML:http://aka.ms/servicefabricinternallkg /Products:'MicrosoftAzure-ServiceFabric-InternalLKG-Develop' /AcceptEULA /Log:D:\log.txt" -NoNewWindow -Wait
+Start-Process 'C:\Program Files\Microsoft\Web Platform Installer\WebpiCmd-x64.exe' -ArgumentList "/Install /XML:http://aka.ms/servicefabricprivatepreviewfeed /Products:'MicrosoftAzure-ServiceFabric' /AcceptEULA /Log:D:\log.txt" -NoNewWindow -Wait
 
 # Set up local cluster
 
